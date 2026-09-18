@@ -1,0 +1,138 @@
+/*
+Paleta de Cores
+#880D1E - Vermelho escuro
+#dd2d4a - Rosa escuro
+#f26a8d - Rosa médio
+#F49CBB - Rosa claro
+#cbeef3 - Azul claro
+*/
+
+/*
+cor do fundo: #111122
+*/
+
+/*
+        <p>    Ela me inspira porque, além de ter conquistado um enorme reconhecimento na música, transmitia sentimentos de força, confiança e amor-próprio através de suas canções.
+        </p>
+        <p>
+            Admiro principalmente sua capacidade de transformar sua voz em algo que emocionava e inspirava milhões de pessoas.
+        </p>
+        <br>
+*/
+
+#borda-cima{
+            border-width: 10px;
+            border-top: 2px solid #FFFCBB;
+            padding-top: 50px;
+}
+body{
+    background-color:#212529;
+    color: white;
+    font-family: "Momo Trust Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px;
+}
+
+.topoo:hover{
+    color: #111122;
+    background-color: #FFFCBB;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+h1, h2, h3, h4{
+    color: #FFFCBB;
+}
+
+h1,h2{
+    
+    text-align: center;
+}
+
+.caixa-menu{
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+a{
+    color: #FFFCBB;
+}
+
+a:hover{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50px;
+    color: #111122;
+    background-color: #FFFCBB;
+}
+
+.menu-item{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50px;
+    border: #FFFCBB 3px solid;
+}
+
+.menu-item:hover{
+    display: inline-block;
+    padding: 5px;
+    border:#111122 3px solid;
+    border-radius: 50px;
+    background-color: #FFFCBB;
+}
+
+
+
+strong, em{
+    color: #FFFCBB;
+}
+
+img{
+    border-radius: 20px;
+    border: 5px dashed #FFFCBB;
+}
+
+figcaption{
+    color: #FFFCBB;
+}
+
+.cabecalho, footer{
+    padding: 10px;
+    text-align: center;
+    background-color: 111122;
+    border-bottom: 3px dotted #FFFCBB;
+    margin-bottom: 30px;
+}
+
+.subtitulo{
+    text-align: center;
+    background-color: 111122;
+    margin-bottom: 30px;
+}
+
+.text-centralizar{
+    display: block;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.texto_justificado{
+    text-align: justify;
+}
+
+.caixa_geral{
+    text-align: center;
+}
+
+.caixa_centro{
+    display: inline-block;
+    width: 40%;
+}
+
+.rodape{
+        border-top: #FFFCBB 3px dotted;
+}
+
+
+

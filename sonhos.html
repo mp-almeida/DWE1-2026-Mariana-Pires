@@ -3,59 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="geral.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap" rel="stylesheet">
     <title>Sonhos</title>
+
+    <style>
+        .suspense-img{
+            opacity: 20%;
+        }
+        .suspense-img:hover{
+            opacity: 100%;
+        }
+        
+    </style>
 </head>
 <body>
-    <h1 id="topo">Sonhos</h1>
+    <h2 id="topo"></h2>
+    <h1 id="topo" class="cabecalho">Meus Diversos Sonhos</h1>
+    <h2 class="subtitulo"> Sonhos</h2>
+        <div class="caixa-menu">
         <nav>
             <ul>
-                <li><a href="index.html">Sobre Mim</a></li>
-                <li><a href="saopaulo.html">Cidade Natal - São Paulo</a></li>
-                <li><a href="inspiracao.html">Inspiração</a></li>
-                <li><a href="livre.html">Página de Músicas</a></li>
+                <li class="menu-item"><a href="index.html">Sobre Mim</a></li>
+                <li class="menu-item"><a href="saopaulo.html">Cidade Natal</a></li>
+                <li class="menu-item"><a href="inspiracao.html">Inspiração</a></li>
+                <li class="menu-item"><a href="livre.html">Página de Músicas</a></li>
             </ul>
         </nav>
+    </div>
+    
+    <div class="caixa_geral">
+        <div class="caixa_centro">
+            <img src="menina-comp.png" alt="Foto de uma mulher com um laptop, representando o sonho profissional da Mariana Pires" width="300px" height="200px">
+        </div>
 
-        <main>
-        <h2>Profissional</h2>
-            <p>
+        <div class="caixa_centro">
+            <h3>Profissional</h3>
+            <p class="texto_justificado">
                 Meu sonho profissional é me tornar uma profissional de tecnologia, ter uma carreira sólida e ter oportunidade de trabalhar com projetos
                 que realmente façam a diferença na vida das pessoas. Quero crescer profissionalmente, experimentando diferentes áreas da tecnologia, continuar aprendendo
                 e ver, no futuro, tudo que construí e sentir orgulho e paz no coração. 
             </p>
-            <img src="menina-comp.png" alt="Foto de uma mulher com um laptop, representando o sonho profissional da Mariana Pires" width="300" height="200">
-        
+            <br>
+        </div>
+    </div>
 
-        <article>
-            <h2>Pessoal</h2>
-            <p>
-                Já meu sonho pessoal é ter uma família, com ao menos dois filhos e vários cachorros, ter uma casa confortável e aconchegante, ter amigos verdadeiros e leais, e ser feliz sendo hexacampeão mundial.
-            </p>
-            
-            <img src="familia.jpg" alt="Foto de uma família, representando o sonho pessoal da Mariana Pires" width="300" height="200">
-        </article>    
+    <br>
+    <br>
+    <article>
+        <div class="caixa_geral">
+            <div class="caixa_centro">
+                <h3>Pessoal</h3>
+                <p class="texto_justificado">
+                    Já meu sonho pessoal é ter uma família, com ao menos dois filhos e vários cachorros, ter uma casa confortável e aconchegante, ter amigos verdadeiros e leais, e ser feliz sendo hexacampeão mundial.
+                </p>
+                <br>
+            </div>
+            <div class="caixa_centro">    
+                <img src="familia.jpg" alt="Foto de uma família, representando o sonho pessoal da Mariana Pires" width="300px" height="200px">
+            </div>
+        </div>
+    </article>    
 
-        <article>
-            <h2>Viajar pelo mundo</h2>
+    <br><br>
+    <h3 class="text-centralizar" id="borda-cima">Viajar pelo mundo</h3>
+    <br><br>
+    <article>
+        <div class="caixa_geral">
+            <div class="caixa_centro">
             <h3>Itália</h3>
 
             <p>
                 Meu sonho é conhecer a Itália para vivenciar de perto sua história, arquitetura e cultura. 
                 Quero conhecer cidades como Roma, Florença e Veneza, experimentar a culinária italiana e conhecer lugares que sempre admirei por fotos e filmes.
             </p>
-            <img src="roma1.jpg" alt="Foto do Coliseu de Roma - Itália" width="300" height="200">
+            <br> <br>
+            </div>
+                <div class="caixa_centro">
+                    <figure class="suspense-img capa-img">
+                        <img src="roma1.jpg" alt="Foto do Coliseu de Roma - Itália" width="300px" height="200px">
+                        <figcaption>Foto de Roma</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <br><br><br>
+        </article>
+        
+        <article class="caixa_geral">
+            <div class="caixa_centro">
+                <h3>Grécia </h3>
+                <p>
+                    Tenho muita vontade de conhecer a Grécia por suas paisagens incríveis, praias e construções históricas. Seria especial conhecer Santorini e Atenas, além de descobrir um pouco mais sobre a história e a mitologia grega.
+                </p>
+                <br><br><br>
+            </div>
 
-            <h3>Grécia </h3>
-            <p>
-                Tenho muita vontade de conhecer a Grécia por suas paisagens incríveis, praias e construções históricas. Seria especial conhecer Santorini e Atenas, além de descobrir um pouco mais sobre a história e a mitologia grega.
-            </p>
-
-            <img src="santorini.jpg" alt="Foto de Santorini na Grécia" width="300" height="200">
-            <h3>França</h3>
-            <p>
-                A França também está na minha lista de sonhos, principalmente Paris. Quero conhecer a Torre Eiffel, caminhar pelas ruas da cidade, visitar museus e aproveitar a atmosfera francesa. Seria uma experiência inesquecível conhecer pessoalmente lugares que sempre vi tão de longe.
-            </p>
-            <img src="paris.jfif" alt="Foto de Santorini na Grécia" width="300" height="200">
+            <div class="caixa_centro">
+                <figure class="suspense-img capa-img">
+                    <img src="santorini.jpg" alt="Foto de Santorini na Grécia" width="300px" height="200px">
+                    <figcaption>Foto de Santorini na Grécia</figcaption>
+                </figure>
+            </div>
+            <br><br><br>
+        </article>
+        <article class="caixa_geral">
+            <div class="caixa_centro">
+                <h3>França</h3>
+                <p>
+                    A França também está na minha lista de sonhos, principalmente Paris. Quero conhecer a Torre Eiffel, caminhar pelas ruas da cidade, visitar museus e aproveitar a atmosfera francesa. Seria uma experiência inesquecível conhecer pessoalmente lugares que sempre vi tão de longe.
+                </p>
+                
+            <br><br><br>
+            </div>
+            <div class="caixa_centro">
+                <figure class="suspense-img capa-img">
+                    <img src="paris.jfif" alt="Foto de Santorini na Grécia" width="300px" height="200px">
+                    <figcaption> Foto de Santorini na Grécia</figcaption>
+                </figure>
+            </div>
             <p><a href="#topo">Voltar ao topo</a></p> 
         </article>
         </main>

@@ -3,49 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="geral.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap" rel="stylesheet">
     <title>Inspiração</title>
-</head>
-<body>
-    <h1 id="topo">Whitney Houston</h1>
+    
+    <style>
+        .centralizar-meio{
+            margin-left: 25%;
+            margin-right: 25%;
+            width: 50%;
+            display: block;
+            text-align:center;
+        }
 
+        .centralizar-direita{
+            margin-left: 50%;
+            width: 50%;
+            display: block;
+        }
+        .centralizar-esquerda{
+            margin-right: 50%;
+            width: 50%;
+            display: block;
+        }
+        .espaco-lateral{
+            padding: 0 80px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <h1 id="topo" class="cabecalho">Whitney Houston</h1>
+    <h2 class="subtitulo">Inspiração</h2>
+
+    <div class="caixa-menu">
         <nav>
             <ul>
-                <li><a href="index.html">Sobre Mim</a></li>
-                <li><a href="saopaulo.html">Cidade Natal - São Paulo</a></li>
-                <li><a href="sonhos.html">Sonhos</a></li>
-                <li><a href="livre.html">Página de Músicas</a></li>
-                </ul>
+                <li class="menu-item"><a href="index.html">Sobre Mim</a></li>
+                <li class="menu-item"><a href="saopaulo.html">Cidade Natal</a></li>
+                <li class="menu-item"><a href="sonhos.html">Sonhos</a></li>
+                <li class="menu-item"><a href="livre.html">Página de Músicas</a></li>
+            </ul>
         </nav>
+    </div>
+       
+    <div class="caixa_geral"> 
+            <span class="caixa_centro">
+                <p>
+                    A cantora <strong><em>Whitney Houston</em></strong> é uma das minhas inspirações, pois admiro muito sua carreira e seu talento. 
+                </p>
+                <p>
+                    Ela foi uma das maiores cantoras de sua geração, conhecida por sua voz marcante, talento e presença de palco. 
+                </p>
+            </span>
+                <figure>
+                    <img src="Houston.JPEG" alt="Imagem da cantora Whitney Houston" width="300px" height="400px">
+                    <figcaption>Whitney Houston</figcaption>
+                </figure>
+    </div>       
+    <br>
+    <br>
+    
+    <article>
 
-        <img src="Houston.JPEG" alt="Imagem da cantora Whitney Houston">
+        <div class="espaco-lateral">
+            <div class="centralizar-esquerda">
+                <blockquote>“If I fail, if I succeed, at least I’ll live as I believe.”</blockquote>
 
-    <main>
-        <p>
-            Whitney Houston foi uma das maiores cantoras de sua geração, conhecida por sua voz marcante, talento e presença de palco. Ela me inspira porque, além de ter conquistado um enorme reconhecimento na música, transmitia sentimentos de força, confiança e amor-próprio através de suas canções. Admiro principalmente sua capacidade de transformar sua voz em algo que emocionava e inspirava milhões de pessoas.
-        </p>
-        <br>
-        <blockquote>“If I fail, if I succeed, at least I’ll live as I believe.”</blockquote>
+                <p><cite>Whitney Houston, Greatest Love of All <sub>(1986)</sub></cite></p>
+            </div>
+            <br>
 
-        <p><cite>Whitney Houston, Greatest Love of All <sub>(1986)</sub></cite></p>
-        <br>
+            <div class="centralizar-direita">
+                <blockquote> “If you can love yourself through all your rights and wrongs and faults, then that’s the greatest love of all.”</blockquote>
 
-        <blockquote> “If you can love yourself through all your rights and wrongs and faults, then that’s the greatest love of all.”</blockquote>
-
-        <p><cite>Whitney Houston, Greatest Love of All <sub>(1986)</sub></cite></p>
+                <p><cite>Whitney Houston, Greatest Love of All <sub>(1986)</sub></cite></p>
+            </div>
+        </div>
+    </article>
         
         <br>
 
-        <p>
-            Essas frases me inspiram porque mostram a importância de acreditar em si mesma, seguir o próprio caminho e não deixar que as dificuldades definam quem somos.
-        </p>
-
-        <p>
-            Para saber mais: 
-        <a href="https://pt.wikipedia.org/wiki/Whitney_Houston" target="_blank"> clique aqui </a>
-        </p>
-        <p><a href="#topo">Voltar ao topo</a></p> 
-    </main>
-    <footer>
+        <div class="centralizar-meio"> 
+            <p>
+                Essas frases me inspiram porque mostram a importância de acreditar em si mesma, seguir o próprio caminho e não deixar que as dificuldades definam quem somos.
+            </p>
+            <p>
+                Para saber mais: 
+                <a href="https://pt.wikipedia.org/wiki/Whitney_Houston" target="_blank"> clique aqui </a>
+            </p>
+        </div>
+        <p class="text-centralizar"><a href="#topo" class="topoo">Voltar ao topo</a></p>  
+    
+    <footer class="rodape">
        <p>DWS1 - Mariana Pires - 2026</p>
     </footer>
 

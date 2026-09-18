@@ -3,63 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="geral.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap" rel="stylesheet">
     <title>Cidade Natal - São Paulo</title>
+
+    <style>
+        .introducao{
+            padding: 20px;
+        }
+        .titulo_mapa{
+            display: inline-block;
+            text-align: center;
+            width: 40%;
+            margin-right: 100px;
+        }
+        .mapa{
+            margin-top: 20px;            
+            width: 40%;
+            display: inline-block;
+            border: 3px dashed #FFFCBB;
+        }
+        .momo-trust-display-regular {
+            font-family: "Momo Trust Display", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 1.7em;
+        }
+        .destaque{
+            border-radius: 10px;
+            border: 3px solid #F1F3F6;
+            background-color: #F1F3F6;
+            color: #212529;
+        }
+    </style>
 </head>
+
 <body>
-     <h1 id="topo"> São Paulo - SP </h1>
-      <nav>
+    <h1 id="topo" class="cabecalho">São Paulo - SP</h1>
+    <h2 class="subtitulo"> Cidade Natal</h2>
+
+    <div class="caixa-menu">
+        <nav>
             <ul>
-                <li><a href="index.html">Sobre Mim</a></li>
-                <li><a href="sonhos.html">Sonhos</a></li>
-                <li><a href="inspiracao.html">Inspiração</a></li>
-                <li><a href="livre.html">Página de Músicas</a></li>
+                <li class="menu-item"><a href="index.html">Sobre Mim</a></li>
+                <li class="menu-item"><a href="sonhos.html">Sonhos</a></li>
+                <li class="menu-item"><a href="inspiracao.html">Inspiração</a></li>
+                <li class="menu-item"><a href="livre.html">Página de Músicas</a></li>
             </ul>
         </nav>
+    </div>
        
-        <main>
-        <P>
+    <main>
+        <p class="texto_justificado introducao">
             São Paulo é a minha cidade natal, e é a maior cidade do Brasil. É conhecida por sua diversidade
              cultural, gastronomia e vida noturna vibrante. O que é muito diferente do interior, principalmente de Votuporanga, que é uma cidade pequena e tranquila, 
              com uma população de cerca de <mark>100 mil habitantes</mark>. E o que temos de diversão é muito diferente e limitado, mas mesmo assim, é uma cidade muito bonita e calma,
              com muitas áreas verdes e parques. E é isso que eu mais gosto de São Paulo, a diversidade e a vida noturna, mas também gosto do interior, pela tranquilidade e segurança.
         </p>
 
-            <figure>
-                <img src="https://t4.ftcdn.net/jpg/02/82/76/59/360_F_282765998_GoksVVY8vae5ITsiBsScRYMDIrwqxYL4.jpg" alt="Foto de São Paulo - SP" width="300" height="200">
+        <div class="caixa_geral">           
+            <section class="caixa_centro">
+                <h4>Informações Gerais sobre São Paulo</h4>    
+                <ul class="texto_justificado">
+                        <li><em>Habitantes:</em> <mark>Mais de 12 milhões</mark></li>
+                        <br>
+                        <li><em>Área:</em> 1,200 km²</li>
+                        <br>
+                        <li><em>Clima:</em> Tropical, com verões quentes e úmidos e invernos amenos e secos</li>
+                        <br>
+                        <li><em>Economia:</em> São Paulo é o principal centro financeiro do Brasil</li>
+                        <br>
+                        <li><em>Idiomas:</em> Português é o idioma oficial, mas o inglês é amplamente falado em áreas urbanas</li>
+                </ul>
+            </section>
+            <figure class="caixa_centro">
+                <img src="https://t4.ftcdn.net/jpg/02/82/76/59/360_F_282765998_GoksVVY8vae5ITsiBsScRYMDIrwqxYL4.jpg" alt="Foto de São Paulo - SP" width="300px" height="200px">
                     <figcaption>Ponte Estaiada - São Paulo - <abbr title="São Paulo">SP</abbr></figcaption>
-                </figure>
-            <figure>
-                <img src="paulista-sp.jpg" alt="Foto da Avenida Paulista - São Paulo" width="300" height="200">
+            </figure>
+        </div>
+        <br>
+        <br>
+        <div class="caixa_geral">
+           
+            <figure class="caixa_centro">
+                <img src="paulista-sp.jpg" alt="Foto da Avenida Paulista - São Paulo" width="300px" height="200px">
                 <figcaption>Av. Paulista - São Paulo - <abbr title="São Paulo">SP</abbr></figcaption>
             </figure>
-            
-        <article>    
-            <h2>Informações Gerais sobre São Paulo</h2>
-            <ul>
-                <li><b>Habitantes:</b> <mark>Mais de 12 milhões</mark></li>
-                <li><b>Área:</b> 1,200 km²</li>
-                <li><b>Clima:</b> Tropical, com verões quentes e úmidos e invernos amenos e secos</li>
-                <li><b>Economia:</b> São Paulo é o principal centro financeiro do Brasil</li>
-            </ul>
-        </article>
+            <article class="caixa_centro">
+                <h4> 4 <em>Curiosidades</em> sobre São Paulo</h4>
+             
+                <ol class="texto_justificado">
+                    <li>É a cidade mais populosa do Brasil e da América do Sul</li>
+                    <br>
+                    <li>É conhecida como a "cidade que nunca dorme" devido à sua vida noturna agitada</li>
+                    <br>
+                    <li>É um importante centro cultural, com diversos museus, teatros e galerias de arte</li>
+                    <br>
+                    <li>É famosa por sua gastronomia diversificada, com restaurantes de diferentes cozinhas do mundo</li>
+                </ol>
+            </article>
+        </div>
+        <br>
 
-        <article>
-            <h2> 4 <em>Curiosidades</em> sobre São Paulo</h2>
-            <ol>
-                <li>São Paulo é a cidade mais populosa do Brasil e da América do Sul</li>
-                <li>É conhecida como a "cidade que nunca dorme" devido à sua vida noturna agitada</li>
-                <li>É um importante centro cultural, com diversos museus, teatros e galerias de arte</li>
-                <li>É famosa por sua gastronomia diversificada, com restaurantes de diferentes cozinhas do mundo, ficando atrás só de New York pela quantidade de estabelecimentos</li>
-            </ol>
-        </article>
+        <div class="caixa_geral">
+                <div class="titulo_mapa momo-trust-display-regular">
+                    <h4>Veja o <span class="destaque">MAPA</span></h4>
+                    
+                    <h4>ao lado da <span class="destaque">CAPITAL</span> </h4>
+                    <h4>do estado de </h4>
+                    <h4> <span class="destaque">SÃO PAULO</span></h4>
+                    
+                    <br><br><br>
+                </div>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.39581857994!2d-46.9249728239566!3d-23.681434537389432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2sS%C3%A3o%20Paulo%2C%20State%20of%20S%C3%A3o%20Paulo!5e0!3m2!1sen!2sbr!4v1787231553327!5m2!1sen!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>    
+                </div>
+            </div>
+        </div>
 
-            <p>Veja o <b>mapa</b> abaixo da capital do estado de São Paulo:</p>
-            
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.39581857994!2d-46.9249728239566!3d-23.681434537389432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2sS%C3%A3o%20Paulo%2C%20State%20of%20S%C3%A3o%20Paulo!5e0!3m2!1sen!2sbr!4v1787231553327!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" ></iframe>
-            <p><a href="#topo">Voltar ao topo</a></p> 
+        <p class="text-centralizar"><a href="#topo" class="topoo">Voltar ao topo</a></p> 
         
-        </main>
-        <footer>
+    </main>
+        <footer class="rodape">
             <p>DWS1 - Mariana Pires - 2026</p>
         </footer>
 </body>

@@ -3,19 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="geral.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap" rel="stylesheet">
     <title>Página de Músicas</title>
+<style>
+    .centro-div, h3{
+        width: 50%;
+        text-align: center;
+    }
+    .song-div{
+        padding: 10px;
+        border-bottom: 3px dotted #FFFCBB;
+        border-top: 3px dotted #FFFCBB;
+        opacity: 50%;
+    }
+    .song-div:hover{
+        border-bottom: 3px dotted #FFFCBB;
+        border-top: 3px dotted #FFFCBB;
+        opacity: 100%;
+    }
+    .destaque{
+            border-radius: 10px;
+            border: 3px solid #F1F3F6;
+            background-color: #F1F3F6;
+            color: #212529;
+    }
+    h3{
+        color: white;
+        text-align: left;
+    }
+    h4{
+            font-family: "Momo Trust Display", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 1.7em;
+        }
+    .pad{
+        padding-left: 100px;
+    }
+</style>
 </head>
 <body>
-    <h1 id="topo">Minhas músicas favoritas</h1>
+    <h1 id="topo" class="cabecalho">Minhas músicas favoritas</h1>
+    <h2 class="subtitulo"> Página Livre</h2>
+    
+    <div class="caixa-menu">
         <nav>
             <ul>
-                <li><a href="index.html">Sobre Mim</a></li>
-                <li><a href="saopaulo.html">Cidade Natal - São Paulo</a></li> 
-                <li><a href="sonhos.html">Sonhos</a></li>
-                <li><a href="inspiracao.html">Inspiração</a></li>
+                <li class="menu-item"><a href="index.html">Sobre Mim</a></li>
+                <li class="menu-item"><a href="saopaulo.html">Cidade Natal</a></li>
+                <li class="menu-item"><a href="sonhos.html">Sonhos</a></li>
+                <li class="menu-item"><a href="inspiracao.html">Inspiração</a></li>
             </ul>
         </nav>
-    <h2>Top 5 das minhas músicas favortitas no momento</h2>
+    </div>
+
+    <section>
+    <h3>Top 5 das minhas músicas favortitas no momento</h3>
+
     <ol>
         <li><a href="#1">Uma vez - FHOP</a></li>
         <li><a href="#2">To be loved - Adele</a></li>
@@ -23,27 +70,94 @@
         <li><a href="#4">I wanna dance with somebody (who loves me) - Whitney Houston</a></li>
         <li><a href="#5">I have nothing - Whitney Houston</a></li>
     </ol>
+    </section>
+
+    <br>
+    <section>
+        <div class="song-div caixa_geral" id="1">
+
+            <div class="caixa_centro pad">
+                    <h4>UMA VEZ </h4>
+                    <h4> <span class="destaque">FHOP</span></h4>
+        
+                    <br><br><br>
+                    <p><a href="#topo" class="topoo ">Voltar ao topo</a></p> 
+            </div>
+            
+            <div class=" caixa_centro">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fOBGrF-bQbA?si=7NCb_eApG54D3QAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <br>
+    
+    <section>
+        <div class="song-div caixa_geral" id="2">
+
+            <div class="caixa_centro">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_dlExeOyFh4?si=B9cjj8VoDG319Xfa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div class="caixa_centro pad">
+                <h4>To be loved</h4>
+                <h4><span class="destaque">Adele</span></h4>
+                
+                <br><br><br>
+                <p><a href="#topo" class="topoo">Voltar ao topo</a></p> 
+            </div>
+            
+        </div>
+    </section>
+    <br>
+    <section>
+        <div class="song-div caixa_geral" id="3">
+            <div class="caixa_centro pad">
+                <h4>I'd risk it all for you </h4>
+                <h4><span class="destaque"> Bruno Mars </span></h4>
+
+                <br><br><br>
+                <p><a href="#topo" class="topoo">Voltar ao topo</a></p> 
+            </div>
+            
+            <div class="caixa_centro">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lY5V4hSLWY8?si=4qo7VWXVb43eeD6J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    
+            </div>
+        </div>
+    </section>
     <br>
 
-    <h3 id="1">Uma vez - FHOP</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/fOBGrF-bQbA?si=7NCb_eApG54D3QAE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <p><a href="#topo">Voltar ao topo</a></p>    
-
-    <h3 id="2">To be loved - Adele</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/_dlExeOyFh4?si=B9cjj8VoDG319Xfa" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <p><a href="#topo">Voltar ao topo</a></p>    
-
-    <h3 id="3">I'd risk it all for you - Bruno Mars</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/lY5V4hSLWY8?si=4qo7VWXVb43eeD6J" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <p><a href="#topo">Voltar ao topo</a></p>    
-    
-    <h3 id="4">I wanna dance with somebody (who loves me) - Whitney Houston</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/n23MT_qPjaM?si=M3VLn3rDZiehPnPu" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <p><a href="#topo">Voltar ao topo</a></p>    
-
-    <h3 id="5">I have nothing - Whitney Houston</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/FxYw0XPEoKE?si=cHx6kd_pHnL9SrSZ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <p><a href="#topo">Voltar ao topo</a></p>    
+    <section> 
+        <div class="song-div caixa_geral" id="4">
+            <div class="caixa_centro">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/n23MT_qPjaM?si=M3VLn3rDZiehPnPu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="caixa_centro pad">
+                <h4>I wanna dance with somebody <br> (who loves me) </h4>
+                <h4><span class="destaque">  Whitney Houston</span></h4>
+                
+                <br><br><br>
+                <p><a href="#topo" class="topoo">Voltar ao topo</a></p> 
+                
+            </div>
+        </div>
+    </section> 
+    <br>
+    <section>
+        <div class="song-div caixa_geral" id="5">
+            <div class="caixa_centro pad">
+                <h4>I have nothing </h4>
+                <h4><span class="destaque">Whitney Houston</span></h4>
+                <br><br><br>
+                <p><a href="#topo" class="topoo">Voltar ao topo</a></p>   
+            </div>
+            
+            <div class="centro-div caixa_centro">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FxYw0XPEoKE?si=cHx6kd_pHnL9SrSZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            </div>
+        </div>
+    </section>
     <footer>
         <p>DWS1 - Mariana Pires - 2026</p>
     </footer>

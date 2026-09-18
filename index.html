@@ -3,48 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="geral.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap" rel="stylesheet">
     <title>Sobre Mim</title>
+<style>
+    .contatos{
+        color: white;
+    }
+
+    .quem_sou{
+        text-align:justify;
+    }
+
+    
+
+    .menu a{
+        color: #111122;
+    }
+
+
+</style>
+
 </head>
 
 <body>
-    
-        <H1 id="topo"><em>Mariana Pires</em></H1>
-        
-        
-        <h2>Sobre Mim</h2>
+            
+        <h1 id="topo" class="cabecalho">Sobre Mim</h1>
+        <h2 class="subtitulo">Mariana Pires</h2>
+            
+        <div class="caixa-menu">
             <nav>
                 <ul>
-                    <li><a href="saopaulo.html">Cidade Natal - São Paulo</a></li> 
-                    <li><a href="sonhos.html">Sonhos</a></li>
-                    <li><a href="inspiracao.html">Inspiração</a></li>
-                    <li><a href="livre.html">Página de Músicas</a></li>
+                    <li class="menu-item"><a href="saopaulo.html">Cidade Natal </a></li> 
+                    <li class="menu-item"><a href="sonhos.html">Sonhos</a></li> 
+                    <li class="menu-item"><a href="inspiracao.html">Inspiração</a></li> 
+                    <li class="menu-item"><a href="livre.html">Página de Músicas</a></li> 
                 </ul>
             </nav>
-        <main>
-        <p>
-            Olá, meu nome é <strong><em>Mariana Pires Almeida</em></strong>, sou estudante do segundo ano de BSI (Bacharel de Sistema de Informação) no IFSP - campus Votuporanga!
-        </p>
-        <p>
-            No momento estou aprimorando meus conhecimentos em HTML. Abaixo, mais sobre mim...
-        </p>
+        </div>
 
-        <figure>
-            <img src="foto-eu.png" alt="Foto da Mariana Pires - autoretrato" width="200">
-            <figcaption>Mariana Pires</figcaption>
-        </figure>
-        <p><a href="#topo">Voltar ao topo</a></p> 
-        
-            <p>
-                <b>Contatos:</b>
-            </p>
+        <div class="caixa_geral"> 
+            <div class="caixa_centro quem_sou">
+                <p>
+                    Olá, meu nome é <strong><em>Mariana Pires Almeida</em></strong>, sou estudante do segundo ano de BSI (Bacharel de Sistema de Informação) no IFSP - campus Votuporanga!
+                </p>
+                <p>
+                    No momento estou aprimorando meus conhecimentos em HTML. Abaixo, mais sobre mim...
+                </p>
+                <br><br><br><br><br><br><br>
+            </div>
+            <div class="caixa_centro">
+                <figure>
+                    <img src="foto-eu.png" alt="Foto da Mariana Pires - autoretrato" width="300px" height="300px">
+                    <figcaption>Mariana Pires</figcaption>
+                </figure>
+            </div>
+        </div>
+        <article>
+            <h3>Contatos</h3>
             <ul>
-                <li><em>Email:</em> <a href="mailto:marianapires.mpa@gmail.com?subject=Contato%20pelo%20site&body=Oi%C3%A1%2C%20gostaria%20de%20saber%20mais.">marianapires.mpa@gmail.com </a></li>
-                <li><em>Telefone:</em> <a href="tel:+5517991490171"> (17) 99149-0171</a></li>
-                <li><em>LinkedIn:</em> <a href="https://www.linkedin.com/in/marianapiresalmeida/" target="_blank"> marianapiresalmeida</a></li>
-                <li><em>Instagram:</em> <a href="https://www.instagram.com/_marianapires__/" target="_blank"> @_marianapires__</a></li>
+                <li><em class="contatos">Email:</em> <a href="mailto:marianapires.mpa@gmail.com?subject=Contato%20pelo%20site&body=Oi%C3%A1%2C%20gostaria%20de%20saber%20mais.">marianapires.mpa@gmail.com </a></li>
+                <li><em class="contatos">Telefone:</em> <a href="tel:+5517991490171"> (17) 99149-0171</a></li>
+                <li><em class="contatos">LinkedIn:</em> <a href="https://www.linkedin.com/in/marianapiresalmeida/" target="_blank"> marianapiresalmeida</a></li>
+                <li><em class="contatos">Instagram:</em> <a href="https://www.instagram.com/_marianapires__/" target="_blank"> @_marianapires__</a></li>
+                
             </ul>
+        </article>
 
-        <h3 id="Hobbies">Hobbies</h3>
+        <h3 >Hobbies</h3>
         
         <article>
         <ol>
@@ -75,11 +103,10 @@
                 </p>
             </li>
         </ol>
-        <p><a href="#topo">Voltar ao topo</a></p> 
+        <p class="text-centralizar"><a href="#topo" class="topoo">Voltar ao topo</a></p> 
         </article>
         
-        </main>
-    <footer>
+    <footer class="rodape">
         <p>DWS1 - Mariana Pires - 2026</p>
     </footer>
         
