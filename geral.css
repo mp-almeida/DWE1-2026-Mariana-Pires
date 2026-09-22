@@ -11,14 +11,6 @@ Paleta de Cores
 cor do fundo: #111122
 */
 
-/*
-        <p>    Ela me inspira porque, além de ter conquistado um enorme reconhecimento na música, transmitia sentimentos de força, confiança e amor-próprio através de suas canções.
-        </p>
-        <p>
-            Admiro principalmente sua capacidade de transformar sua voz em algo que emocionava e inspirava milhões de pessoas.
-        </p>
-        <br>
-*/
 
 #borda-cima{
             border-width: 10px;
@@ -50,35 +42,35 @@ h1,h2{
     text-align: center;
 }
 
-.caixa-menu{
-    display: block;
-    text-align: center;
-    margin-bottom: 30px;
-}
+
 a{
     color: #FFFCBB;
 }
 
 a:hover{
-    display: inline-block;
-    padding: 5px;
-    border-radius: 50px;
+    padding: 1vw;
+    border-radius: 5vh;
     color: #111122;
     background-color: #FFFCBB;
 }
-
-.menu-item{
-    display: inline-block;
-    padding: 10px;
-    border-radius: 50px;
+.caixa-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 15vh;
+}
+.caixa-menu div{
+    padding: 1vw;
+    border-radius: 5vh;
     border: #FFFCBB 3px solid;
 }
 
-.menu-item:hover{
+.caixa-menu div:hover{
     display: inline-block;
-    padding: 5px;
-    border:#111122 3px solid;
-    border-radius: 50px;
+    padding: 1vw;
+    border:#111122 0.5vw solid;
+    border-radius: 10vh ;
     background-color: #FFFCBB;
 }
 
