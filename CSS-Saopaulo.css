@@ -1,0 +1,27 @@
+        .introducao{
+            padding: 20px;
+        }
+        .titulo_mapa{
+            display: inline-block;
+            text-align: center;
+            width: 40%;
+            margin-right: 100px;
+        }
+        .mapa{
+            margin-top: 20px;            
+            width: 40%;
+            display: inline-block;
+            border: 3px dashed #FFFCBB;
+        }
+        .momo-trust-display-regular {
+            font-family: "Momo Trust Display", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 1.7em;
+        }
+        .destaque{
+            border-radius: 10px;
+            border: 3px solid #F1F3F6;
+            background-color: #F1F3F6;
+            color: #212529;
+        }

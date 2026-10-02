@@ -1,0 +1,6 @@
+        .suspense-img{
+            opacity: 20%;
+        }
+        .suspense-img:hover{
+            opacity: 100%;
+        }

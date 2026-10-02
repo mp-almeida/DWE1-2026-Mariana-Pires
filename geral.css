@@ -8,123 +8,155 @@ Paleta de Cores
 */
 
 /*
-cor do fundo: #111122
+cor do fundo:#212529
 */
 
 
-#borda-cima{
-            border-width: 10px;
-            border-top: 2px solid #FFFCBB;
-            padding-top: 50px;
+#borda-cima {
+    border-width: 10px;
+    border-top: 2px solid #FFFCBB;
+    padding-top: 50px;
 }
-body{
-    background-color:#212529;
+
+body {
+    background-color: #212529;
     color: white;
     font-family: "Momo Trust Display", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding: 5px;
+    padding: 2vh;
 }
 
-.topoo:hover{
+.botao:hover {
     color: #111122;
     background-color: #FFFCBB;
-    border-radius: 50px;
-    padding: 10px;
+    border-radius: 5vh;
+    padding: 1vw;
 }
 
-h1, h2, h3, h4{
+h1,
+h2,
+h3,
+h4 {
     color: #FFFCBB;
 }
 
-h1,h2{
-    
+h1,
+h2 {
     text-align: center;
 }
 
 
-a{
+a {
     color: #FFFCBB;
 }
 
-a:hover{
+a:hover {
     padding: 1vw;
     border-radius: 5vh;
     color: #111122;
     background-color: #FFFCBB;
 }
-.caixa-menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 15vh;
-}
-.caixa-menu div{
-    padding: 1vw;
-    border-radius: 5vh;
-    border: #FFFCBB 3px solid;
-}
-
-.caixa-menu div:hover{
-    display: inline-block;
-    padding: 1vw;
-    border:#111122 0.5vw solid;
-    border-radius: 10vh ;
-    background-color: #FFFCBB;
-}
 
 
 
-strong, em{
+strong,
+em {
     color: #FFFCBB;
 }
 
-img{
-    border-radius: 20px;
-    border: 5px dashed #FFFCBB;
+img {
+    border-radius: 10vw;
+    border: 0.5vw dashed #FFFCBB;
 }
 
-figcaption{
+figcaption {
     color: #FFFCBB;
 }
 
-.cabecalho, footer{
+.cabecalho,
+footer {
     padding: 10px;
     text-align: center;
     background-color: 111122;
-    border-bottom: 3px dotted #FFFCBB;
-    margin-bottom: 30px;
+    border-bottom: 0.5vw  dotted #FFFCBB;
+    margin-bottom: 2vh;
 }
 
-.subtitulo{
+.subtitulo {
     text-align: center;
     background-color: 111122;
-    margin-bottom: 30px;
+    margin-bottom: 5vh;
 }
 
-.text-centralizar{
+.text-centralizar {
     display: block;
     text-align: center;
-    margin: 30px 0;
 }
 
-.texto_justificado{
+.texto-justificado {
     text-align: justify;
 }
 
-.caixa_geral{
-    text-align: center;
+
+
+.rodape {
+    border-top: #FFFCBB 0.5vw dotted;
 }
 
-.caixa_centro{
-    display: inline-block;
-    width: 40%;
+/*MENU*/
+
+@media screen and (min-width: 600px) {
+    .caixa_geral {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .caixa-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .caixa-menu div {
+        padding: 1vw;
+        border-radius: 5vh;
+    }
+
+    .caixa-menu div:hover {
+        padding: 1vw;
+        border: #111122 0.5vw solid;
+        border-radius: 10vh;
+        background-color: #FFFCBB;
+        
+    }
+    
+
 }
 
-.rodape{
-        border-top: #FFFCBB 3px dotted;
+.caixa-menu {
+    flex-direction: row;
+    justify-content: center;
 }
 
+.caixa-menu div {
+    padding: 1vw;
+    border-radius: 5vh;
+    border: #FFFCBB 0.5vw solid;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
 
+.caixa-menu div:hover {
+    padding: 1vw;
+    border: #111122 0.5vw solid;
+    border-radius: 10vh;
+    background-color: #FFFCBB;
+}
 
+.caixa_geral {
+    flex-direction:row;
+    justify-content: CENTER;
+    align-items:center;
+}

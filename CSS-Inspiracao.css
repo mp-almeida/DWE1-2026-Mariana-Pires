@@ -1,0 +1,21 @@
+        .centralizar-meio{
+            margin-left: 25%;
+            margin-right: 25%;
+            width: 50%;
+            display: block;
+            text-align:center;
+        }
+
+        .centralizar-direita{
+            margin-left: 50%;
+            width: 50%;
+            display: block;
+        }
+        .centralizar-esquerda{
+            margin-right: 50%;
+            width: 50%;
+            display: block;
+        }
+        .espaco-lateral{
+            padding: 0 80px;
+        }

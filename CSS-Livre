@@ -1,0 +1,41 @@
+.centro-div,
+        h3 {
+            width: 50%;
+            text-align: center;
+        }
+
+        .song-div {
+            padding: 10px;
+            border-bottom: 3px dotted #FFFCBB;
+            border-top: 3px dotted #FFFCBB;
+            opacity: 50%;
+        }
+
+        .song-div:hover {
+            border-bottom: 3px dotted #FFFCBB;
+            border-top: 3px dotted #FFFCBB;
+            opacity: 100%;
+        }
+
+        .destaque {
+            border-radius: 10px;
+            border: 3px solid #F1F3F6;
+            background-color: #F1F3F6;
+            color: #212529;
+        }
+
+        h3 {
+            color: white;
+            text-align: left;
+        }
+
+        h4 {
+            font-family: "Momo Trust Display", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 1.7em;
+        }
+
+        .pad {
+            padding-left: 100px;
+        }
